@@ -17,6 +17,8 @@ header {
 
 h2{
     margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 .rectangles-box{
     height: 30vh;
@@ -57,8 +59,43 @@ h2{
 
 }
 
+
+.circles-box{
+    height:50vh;
+    width: 100vw;
+    border: black 2px dashed;
+    margin-left: 10px;
+}
+
+
 .alignment1 {
     display:inline-block;
 }
 
+#circle-1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 55px;
+    display:block;
+}
 
+#circle-2{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    border: 1px solid black;
+    margin-left: 30px;
+    display:block;
+}
+
+#circle-3{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid black;
+    margin-left: 5px;
+    display:block;
+}
