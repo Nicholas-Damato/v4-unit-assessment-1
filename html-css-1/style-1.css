@@ -37,7 +37,7 @@ header {
 
 .dot-bord2{
     width: 97vw;
-    height: 50vh;
+    height: 40vh;
     border: 5px black dotted;
     margin: 10px;
 }
