@@ -99,3 +99,88 @@ h2{
     margin-left: 5px;
     display:block;
 }
+
+#eyes1 {
+    height: 20px;
+    width: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#eyes2 {
+    height: 20px;
+    width: 20px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+#nose {
+    height: 20px;
+    width: 20px;
+    margin-left: 35px;
+    margin-bottom: 2px;
+}
+
+.button {
+    height: 20px;
+    width: 20px;
+    display: block;
+    padding: 10px 63px;
+    margin-top: 2px;
+}
+
+.everything-box{
+    height: 35vh;
+    width: 100vw;
+    border: black 2px dashed;
+    margin-left:10px;
+}
+
+#beige-box{
+    margin: 10px 10px;
+    background-color: beige;
+    height: 310px;
+    width: 310px;
+    border: 2px solid black;
+    float: left;
+    clear: both;
+
+}
+
+#green-circle{
+    background-color: green;
+    height: 230px;
+    width: 230px;
+    border-radius: 115px;
+    border: 2px solid black;
+
+}
+
+#red-square{
+    background-color: red;
+    height:150px;
+    width: 150px;px;
+    margin-left: 30px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+#blue-circle{
+    height:120px;
+    width: 120px;
+    border-radius: 60px;
+    background-color: blue;
+    clear:both;
+
+}
+
+.textstuff{
+    color:white;
+    padding-top: 40px;
+}
+
+#fish{
+    height: 30px;
+    width: 40px;
+    padding-top: 30px;
+}
