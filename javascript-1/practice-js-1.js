@@ -32,9 +32,10 @@ function sum(num1, num2){
 */
 
 function trueOrFalse(data){
-  if (data === true){
+  if (data == true){
     return true;
-  } else {
+  }
+  else {
     return false;
   }
 }
@@ -131,7 +132,8 @@ let me = {
 
 function bigOrSmall(arr){
   answers = []
-    if(arr > 100){
+  for( i = 0; i < arr.length; i++)
+    if(arr[i] > 100){
        answers.push('big')
       } else {
        answers.push('small')
@@ -203,9 +205,10 @@ let secondFunctionScope = ['global', 'functional']
 */
 
 function firstItem(array, callback){
-  callback(array)
+  callback(array[0])
 }
-firstItem()
+
+
 
 //////////////////PROBLEM 16////////////////////
 /* 
@@ -231,12 +234,14 @@ function isItBob(obj, cb){
   Then invoke the callback, passing in the doubled array.
 */
 
+
 function giveMeDoubles(arr, cb){
+  doubledArr =[];
   for (i = 0; i < arr.length; i++){
-    doubledArr = arr.push(arr[i] * 2)
-    return cb(doubledArr)
+    doubledArr.push(arr[i] * 2)
+   
   }
-  
+   return cb(doubledArr)
 }
 
 
