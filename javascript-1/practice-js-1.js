@@ -32,7 +32,7 @@ function sum(num1, num2){
 */
 
 function trueOrFalse(data){
-  if (data == true){
+  if (data){
     return true;
   }
   else {
@@ -283,3 +283,5 @@ function carFactory(make, model, year){
   }
   return car
 }
+
+console.log(carFactory())
